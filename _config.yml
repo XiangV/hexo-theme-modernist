@@ -1,12 +1,19 @@
-menu:
-  Home: /
+menu: #配置页头显示哪些菜单
+#  Home: /
   Archives: /archives
-rss: /atom.xml
-
-archive_date_format: MMM DD
-fancybox: true
-
-duoshuo_shortname:
-
-google_analytics:
-favicon: /favicon.ico
+#  Reading: /reading
+  About: /about
+#  Guestbook: /about
+excerpt_link: Read More #摘要链接文字
+archive_yearly: false #按年存档
+widgets: #配置页脚显示哪些小挂件
+  - category
+#  - tag
+  - tagcloud
+  - recent_posts
+#  - blogroll
+blogrolls: #友情链接
+#  - bruce sha's javaeye: http://buru.iteye.com
+fancybox: true #是否开启fancybox效果
+#google_analytics:
+rss:
